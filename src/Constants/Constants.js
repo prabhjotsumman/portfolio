@@ -39,6 +39,20 @@ var CONSTANTS = {
     GRADUATED_YEAR: "2017 ",
     GRADUATED_BRANCH: "Computer Science and Engineering. ",
   },
+  SKILLS: {
+    LANGUAGES: ["JavaScript(ES6)", "HTML5", "(S)CSS", "OOP", "C++", "C"],
+    FRAMEWORKS: ["React", "BOOTSTRAP", "MATERIAL DESIGN", "SEMANTIC", "UIKIT"],
+    LIBRARIES: ["Redux", "React Router", "Node", "jQuery", "Socket.io", "Mongoose"],
+    TOOLS: [
+      "Postman",
+      "MongoDB",
+      "Git & GitHub",
+      "Chrome DevTools",
+      "React DevTools",
+      "Command Line",
+    ],
+    DESIGNS: ["Typography", "User Testing", "User Research", "Wireframing"],
+  },
 };
 
 export default CONSTANTS;
