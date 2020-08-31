@@ -8,10 +8,12 @@ var CONSTANTS = {
     GET_IN_TOUCH: "Get in touch!",
     TITLE:
       "who is design-minded and focused on building user-friendly, responsive and beautiful interfaces & experiences",
-    CONTENT_ITEM_1: "React Developer",
-    CONTENT_ITEM_2: "Frontend Developer",
-    CONTENT_ITEM_3: "UI Developer",
-    CONTENT_ITEM_4: "Web Developer",
+    CONTENT_ITEMS: [
+      "React Developer",
+      "Frontend Developer",
+      "UI Developer",
+      "Web Developer",
+    ],
     WHEN_I_AM_NOT_WORKING: "When I'm not coding, ",
     WHEN_I_AM_NOT_WORKING_DESC:
       "When I'm not coding, I will most likely be playing video games, XBOX, PS4, football, fooseball, working-out or watching Netflix.",
@@ -42,7 +44,14 @@ var CONSTANTS = {
   SKILLS: {
     LANGUAGES: ["JavaScript(ES6)", "HTML5", "(S)CSS", "OOP", "C++", "C"],
     FRAMEWORKS: ["React", "BOOTSTRAP", "MATERIAL DESIGN", "SEMANTIC", "UIKIT"],
-    LIBRARIES: ["Redux", "React Router", "Node", "jQuery", "Socket.io", "Mongoose"],
+    LIBRARIES: [
+      "Redux",
+      "React Router",
+      "Node",
+      "jQuery",
+      "Socket.io",
+      "Mongoose",
+    ],
     TOOLS: [
       "Postman",
       "MongoDB",

@@ -43,18 +43,9 @@ function Header() {
           <div className="content">
             <div className="content__container">
               <ul className="content__container__list">
-                <li className="content__container__list__item">
-                  {CQ.LABEL.CONTENT_ITEM_1}
-                </li>
-                <li className="content__container__list__item">
-                  {CQ.LABEL.CONTENT_ITEM_2}
-                </li>
-                <li className="content__container__list__item">
-                  {CQ.LABEL.CONTENT_ITEM_3}
-                </li>
-                <li className="content__container__list__item">
-                  {CQ.LABEL.CONTENT_ITEM_4}
-                </li>
+                {CQ.LABEL.CONTENT_ITEMS.map((item) => (
+                  <li className="content__container__list__item">{item}</li>
+                ))}
               </ul>
             </div>
           </div>
