@@ -7,7 +7,7 @@ function Experience({ name, title, period, link }) {
     <div className="Experience-Container">
       <div>
         <p className="Company-Name">
-          <a href={link} target="_blank">
+          <a href={link} rel="noopener noreferrer" target="_blank">
             {name}
           </a>
         </p>

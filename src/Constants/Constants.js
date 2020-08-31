@@ -62,6 +62,35 @@ var CONSTANTS = {
     ],
     DESIGNS: ["Typography", "User Testing", "User Research", "Wireframing"],
   },
+  EXPERIENCES: {
+    COMPANIES: [
+      {
+        name: "Verizon Wireless",
+        title: "Frontend Developer - React.js ",
+        period: "Nov 2019 - Nov 2020",
+        link: "https://www.verizonwireless.com/",
+      },
+      {
+        name: "Publicis Sapient",
+        title: "Associate Technology",
+        period: "Nov 2017 - Current",
+        link: "https://www.publicissapient.com/",
+      },
+      {
+        name: "Unaxiom",
+        title: "Junior Developer",
+        period: "May 2017 - Nov 2017",
+        link:
+          "https://www.zaubacorp.com/company/UNAXIOM-TECHNOLOGIES-PRIVATE-LIMITED/U74999TG2016PTC113475",
+      },
+      {
+        name: "Muto HQ",
+        title: "Junior Software Developer - Intern",
+        period: "May 2016 - Aug 2016",
+        link: "",
+      },
+    ],
+  },
 };
 
 export default CONSTANTS;

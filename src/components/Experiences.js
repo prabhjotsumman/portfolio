@@ -3,6 +3,8 @@ import Experience from "./Experience";
 import { useSpring, animated } from "react-spring";
 import TrackVisibility from "react-on-screen";
 
+import CQ from "../Constants/Constants";
+import Resume from "./Resume";
 import "../css/experiences/experiences.css";
 
 function Experiences() {
@@ -28,40 +30,15 @@ function Experiences() {
         </animated.div>
 
         <animated.div style={bottomProps} className="Experiences-Container">
-          <Experience
-            name="ONIKON Creative Inc."
-            title="Jr. Frontend Developer"
-            period="Jan 2020 - Current"
-            link="https://onikon.com/"
-          />
-          <Experience
-            name="Kater"
-            title="Web Developer Intern"
-            period="Jul 2019 - Nov 2019"
-            link="https://www.kater.com/"
-          />
-          <Experience
-            name="Euroline Windows Inc."
-            title="Product Engineer"
-            period="Aug 2018 - Mar 2019"
-            link="https://euroline-windows.com/"
-          />
-          <Experience
-            name="INI Solutions"
-            title="Software Technician"
-            period="Sept 2016 - Aug 2018"
-            link="http://www.inipos.com/"
-          />
-          <a
-            className="Resume-Link"
-            href="https://resume.creddle.io/resume/2x8ao7cjdbn"
-            target="_blank"
-          >
-            View My Resume{" "}
-            <span className="Resume" role="img">
-              📄
-            </span>
-          </a>
+          {CQ.EXPERIENCES.COMPANIES.map((company) => (
+            <Experience
+              name={company.name}
+              title={company.title}
+              period={company.period}
+              link={company.link}
+            />
+          ))}
+          <Resume />
         </animated.div>
       </div>
     );
