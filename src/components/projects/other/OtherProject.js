@@ -6,7 +6,7 @@ function OtherProject({ name, link, info, stacks }) {
       {name && (
         <div className="ProjectName-Container">
           <p className="Project-Name">
-            <a href={link} target="_blank">
+            <a href={link} rel="noopener noreferrer" target="_blank">
               {name}
             </a>
           </p>

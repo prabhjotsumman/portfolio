@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 import Experiences from "./components/Experiences";
 import FeaturedProjects from "./components/projects/featured/FeaturedProjects";
 import OtherProjects from "./components/projects/other/OtherProjects";
-import SchoolProjects from "./components/projects/other/SchoolProjects";
+// import SchoolProjects from "./components/projects/other/SchoolProjects";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <div className="ButtonContainer" onClick={() => goTop()}>
         <button className="MoveTopButton">
-          <span className="MoveTop">☝</span>
+          <span className="MoveTop" aria-label="scroll to top" role="img">☝</span>
         </button>
       </div>
       <Switcher />
