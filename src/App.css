@@ -1,0 +1,77 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #103c42;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  font-family: "Share Tech Mono", monospace !important;
+}
+
+.ButtonContainer {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+}
+
+.ButtonContainer:hover .MoveTopButton {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.ButtonContainer .MoveTopButton {
+  background: 0 0;
+  border: none;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+  cursor: pointer;
+}
+
+.ButtonContainer .MoveTopButton:focus {
+  outline: 0;
+}
+
+.ButtonContainer .MoveTopButton .MoveTop {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .ButtonContainer {
+    bottom: 15px;
+    right: 15px;
+  }
+  .ButtonContainer .MoveTopButton .MoveTop {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ButtonContainer {
+    bottom: 12px;
+    right: 12px;
+  }
+  .ButtonContainer .MoveTopButton .MoveTop {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .ButtonContainer {
+    bottom: 10px;
+    right: 10px;
+  }
+  .ButtonContainer .MoveTopButton .MoveTop {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=App.css.map */

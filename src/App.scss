@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #103c42;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  font-family: "Share Tech Mono", monospace !important;
+}
+
+.ButtonContainer {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+
+  &:hover {
+    .MoveTopButton {
+      transform: translateY(-10px);
+    }
+  }
+
+  .MoveTopButton {
+    background: 0 0;
+    border: none;
+    transition: 0.3s ease-in-out all;
+    cursor: pointer;
+
+    &:focus {
+      outline: 0;
+    }
+
+    .MoveTop {
+      font-size: 30px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .ButtonContainer {
+    bottom: 15px;
+    right: 15px;
+    .MoveTopButton {
+      .MoveTop {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ButtonContainer {
+    bottom: 12px;
+    right: 12px;
+    .MoveTopButton {
+      .MoveTop {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .ButtonContainer {
+    bottom: 10px;
+    right: 10px;
+    .MoveTopButton {
+      .MoveTop {
+        font-size: 18px;
+      }
+    }
+  }
+}

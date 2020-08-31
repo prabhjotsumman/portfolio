@@ -1,0 +1,107 @@
+.Skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 35px;
+}
+
+.Skills .Skills-Header {
+  color: #05a19c;
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: 3px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.Skills .Skills-Container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #aaaaaa;
+  max-width: 950px;
+  line-height: 1.5;
+  font-size: 22px;
+}
+
+.Skills .Skills-Container .Skill-Container {
+  width: calc(20% - 30px);
+}
+
+.Skills .Skills-Container .Skill-Container h4 {
+  color: #05a19c;
+  font-size: 21px;
+}
+
+.Skills .Skills-Container .Skill-Container ul {
+  list-style: none;
+}
+
+.Skills .Skills-Container .Skill-Container ul li {
+  font-size: 17px;
+  margin: 10px 0;
+  color: #afafbf;
+  width: calc(100% + 20px);
+}
+
+@media screen and (max-width: 1024px) {
+  .Skills .Skills-Container .Skill-Container {
+    width: calc(33.3333% - 30px);
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Skills .Skills-Container .Skill-Container {
+    width: calc(50% - 30px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Skills {
+    padding: 0 25px;
+  }
+  .Skills .Skills-Container .Skill-Container h4 {
+    font-size: 18px;
+  }
+  .Skills .Skills-Container .Skill-Container ul li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .Skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 15px;
+  }
+  .Skills .Skills-Container .Skill-Container {
+    width: calc(50% - 40px);
+  }
+}
+/*# sourceMappingURL=skills.css.map */

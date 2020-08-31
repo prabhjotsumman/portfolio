@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+.FeaturedProjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 100px 80px;
+}
+
+.FeaturedProjects .Project-Header {
+  color: #05a19c;
+  font-weight: 900;
+  font-size: 21px;
+  letter-spacing: 3px;
+}
+
+.FeaturedProjects .FeaturedProjects-Container {
+  width: 100%;
+  max-width: 850px;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Header {
+  color: #05a19c;
+  font-size: 21px;
+  margin-bottom: 15px;
+  padding-left: 0;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Info {
+  margin-top: 35px;
+  color: #afafbf;
+  margin-bottom: 15px;
+  line-height: 1.3;
+  font-size: 15px;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Stacks .Project-Stack {
+  font-family: "Inconsolata", monospace;
+  color: #05a19c;
+  border: 1px solid #05a19c;
+  border-radius: 3px;
+  margin: 3px 7px 3px 0;
+  padding: 5px 8px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container {
+  overflow: hidden;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 50%;
+  display: block;
+  position: relative;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image .Project-Name {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  color: #cae8d5;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image:hover .Project-Inner-Background {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  bottom: 0;
+  left: 0;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Image-Container .Project-Image:hover .Project-Name {
+  opacity: 1;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .Project-Note {
+  color: #f6d186;
+  margin: 15px 0;
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Margin-Top {
+  margin-top: 60px;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Plateau {
+  background-image: url("../../../src/images/plateau1.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Booster {
+  background-image: url("../../../src/images/booster.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .WatchMe {
+  background-image: url("../../../src/images/watchme.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Nomi {
+  background-image: url("../../../src/images/nomi-landing.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container {
+  margin: 70px 0;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container {
+  display: block;
+  width: 100%;
+  padding-bottom: 50%;
+  -webkit-transition: 0.6s ease-in-out all;
+  transition: 0.6s ease-in-out all;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container .Project-Name {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  color: #cae8d5;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:focus {
+  outline: none;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover .Single-Inner-Container {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  bottom: 0;
+  left: 0;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover .Project-Name {
+  opacity: 1;
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Kaz {
+  background-image: url("../../../src/images/kaz.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Westport {
+  background-image: url("../../../src/images/westport.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .CafeJess {
+  background-image: url("../../../src/images/cafejess2.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Andrea {
+  background-image: url("../../../src/images/ac.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Mike {
+  background-image: url("../../../src/images/mike.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Pawan {
+  background-image: url("../../../src/images/pawan.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Bill {
+  background-image: url("../../../src/images/bill.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Matt {
+  background-image: url("../../../src/images/matt.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Tomlee {
+  background-image: url("../../../src/images/tomlee.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Rainmarketing {
+  background-image: url("../../../src/images/rainmarketing.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Evergreen {
+  background-image: url("../../../src/images/eg.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Fraserpark {
+  background-image: url("../../../src/images/fraserpark.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Narinder {
+  background-image: url("../../../src/images/narinder.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Khanhvo {
+  background-image: url("../../../src/images/khanvho.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Jessi {
+  background-image: url("../../../src/images/jessi.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Alex {
+  background-image: url("../../../src/images/alex.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Bassi {
+  background-image: url("../../../src/images/bassi.png");
+}
+
+.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Cory {
+  background-image: url("../../../src/images/cory.png");
+}
+
+@media only screen and (max-width: 1200px) {
+  .FeaturedProjects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 100px 35px;
+  }
+  .FeaturedProjects .Project-Header {
+    margin-bottom: 35px;
+  }
+  .FeaturedProjects .FeaturedProjects-Container {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .FeaturedProjects {
+    padding: 80px 25px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .FeaturedProjects {
+    padding: 80px 15px;
+  }
+}
+
+.OtherProjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  padding: 80px;
+}
+
+.OtherProjects .Project-Header {
+  color: #05a19c;
+  font-weight: 900;
+  font-size: 21px;
+  letter-spacing: 3px;
+}
+
+.OtherProjects .OtherProjects-Container {
+  width: 100%;
+  max-width: 750px;
+}
+
+.OtherProjects .OtherProjects-Container .OtherProject-Container {
+  margin-bottom: 35px;
+}
+
+.OtherProjects .OtherProjects-Container .OtherProject-Container .ProjectName-Container {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.OtherProjects .OtherProjects-Container .OtherProject-Container .ProjectName-Container .Project-Name a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #05a19c;
+  text-decoration: none;
+}
+
+.OtherProjects .OtherProjects-Container .OtherProject-Container .ProjectName-Container .Project-Icon {
+  color: #05a19c;
+  margin-left: 10px;
+  font-size: 18px;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+}
+
+.OtherProjects .OtherProjects-Container .OtherProject-Container .ProjectName-Container:hover .Project-Icon {
+  -webkit-transform: translateX(7px);
+          transform: translateX(7px);
+}
+
+.OtherProjects .OtherProjects-Container .OtherProject-Container .Project-Info {
+  color: #afafbf;
+  margin-bottom: 15px;
+  line-height: 1.3;
+  font-size: 15px;
+}
+
+.OtherProjects .OtherProjects-Container .OtherProject-Container .Project-Stacks .Project-Stack {
+  font-family: "Inconsolata", monospace;
+  color: #05a19c;
+  border: 1px solid #05a19c;
+  border-radius: 3px;
+  margin: 3px 7px 3px 0;
+  padding: 5px 8px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  .OtherProjects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 80px 35px;
+  }
+  .OtherProjects .Project-Header {
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .OtherProjects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 70px 25px;
+  }
+  .OtherProjects .Project-Header {
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .OtherProjects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 70px 15px;
+  }
+  .OtherProjects .Project-Header {
+    margin-bottom: 35px;
+  }
+}
+
+.SchoolProjects {
+  margin-bottom: 150px;
+}
+
+.SchoolProjects .Project-Note {
+  margin-top: 15px;
+  color: #f6d186;
+  font-size: 13.5px;
+  max-width: 200px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .SchoolProjects {
+    margin-bottom: 60px;
+  }
+  .SchoolProjects .Project-Header {
+    margin-bottom: 15px;
+  }
+  .SchoolProjects .Project-Note {
+    max-width: 500px;
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .SchoolProjects {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=projects.css.map */
