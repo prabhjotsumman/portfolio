@@ -2,6 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 
 import "../css/header/header.css";
+import CQ from "../Constants/Constants";
 
 function Header() {
   const topProps = useSpring({
@@ -29,44 +30,50 @@ function Header() {
     <div class="Header">
       <animated.div style={topProps}>
         <h1>
-          Hello! <span className="wave">👋</span>
+          {CQ.LABEL.GREETINGS_EN}
+          <span className="wave" role="img" aria-label="hello">
+            👋
+          </span>
         </h1>
       </animated.div>
       <animated.div style={centerProps}>
         <h2>
-          I'm <strong>Danny Rhee</strong>,
+          {CQ.LABEL.I_AM} <strong>{CQ.LABEL.NAME}</strong>,
           <br />
           <div className="content">
             <div className="content__container">
               <ul className="content__container__list">
                 <li className="content__container__list__item">
-                  Web Developer,
+                  {CQ.LABEL.CONTENT_ITEM_1}
                 </li>
                 <li className="content__container__list__item">
-                  Frontend Developer,
+                  {CQ.LABEL.CONTENT_ITEM_2}
                 </li>
                 <li className="content__container__list__item">
-                  UI Developer,
+                  {CQ.LABEL.CONTENT_ITEM_3}
                 </li>
                 <li className="content__container__list__item">
-                  Fullstack Developer,
+                  {CQ.LABEL.CONTENT_ITEM_4}
                 </li>
               </ul>
             </div>
           </div>
           <br />
-          <h3>
-            {" "}
-            who is design-minded and focused on building user-friendly,
-            responsive and beautiful interfaces & experiences
-          </h3>
+          <h3>{CQ.LABEL.TITLE}</h3>
         </h2>
       </animated.div>
       <animated.div style={bottomProps}>
         <p>
-          Get in touch 👉{" "}
-          <a href="malto:dongyunrhee@gmail.com" target="_blank">
-            dongyunrhee@gmail.com
+          {CQ.LABEL.GET_IN_TOUCH}
+          <span role="img" aria-label="mail to">
+            👉
+          </span>{" "}
+          <a
+            href={`mailto:${CQ.LABEL.EMAIL}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {CQ.LABEL.EMAIL}
           </a>
         </p>
       </animated.div>
