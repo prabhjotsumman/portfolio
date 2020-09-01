@@ -17,7 +17,7 @@ export const Project = (props) => {
                 >
                     <div className="Project-Inner-Background"></div>
                     <span className="Project-Name">
-                        <i class="fas fa-external-link-alt"></i>
+                        <i className="fas fa-external-link-alt"></i>
                     </span>
                 </a>
             </div>

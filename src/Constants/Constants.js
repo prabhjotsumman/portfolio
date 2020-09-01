@@ -114,19 +114,25 @@ var CONSTANTS = {
     OTHER_PROJECTS: [
         {
             name: "Movie Site",
-            link: "",
+            link: "https://github.com/prabhjotsumman/React-projects",
             info: "Movie Site is created using the TheMovieDB API to fetch the latest movie data and then rendering the fetched data into movie site like theme. Every Item is Clickable to show the information of the movie selected.",
             stacks: ["TheMovieDB API", "JavaScript", "React", "HTML", "CSS",],
         },
         {
+            name: "Grillber",
+            link: "https://github.com/prabhjotsumman/GrillBerr",
+            info: "Grillber is created using React and it is a e-commerce site to rent a Grill. It has a product description page which shows the info for the selected Grill and we can checkout if selected.",
+            stacks: ["JavaScript", "React", "HTML", "CSS",],
+        },
+        {
             name: "Quote Generator",
-            link: "",
+            link: "https://github.com/prabhjotsumman/React-projects",
             info: "Quote Generator is created using the Forismatic API to fetch different Quotes info and displaying it on screen. With every quote fetched there is background image change and Random quote button to fetch any quote.",
             stacks: ["HTML", "CSS", "JavaScript", "React", "Forismatic API"],
         },
         {
             name: "Weather Now",
-            link: "",
+            link: "https://github.com/prabhjotsumman/React-projects",
             info: "Weather Now is created using the Forecast API and Location API. This automatically detect the current location of the device and after the location permission is providedm it fetches the current information of weather currently in that location.",
             stacks: ["Forecast API", "Location API", "HTML", "CSS", "JavaScript", "React"],
         },

@@ -15,8 +15,8 @@ function OtherProject({ name, link, info, stacks }) {
       )}
       <p className="Project-Info">{info}</p>
       <div className="Project-Stacks">
-        {stacks.map(stack => (
-          <span className="Project-Stack">{stack}</span>
+        {stacks.map((stack, i) => (
+          <span key={i} className="Project-Stack">{stack}</span>
         ))}
       </div>
     </div>

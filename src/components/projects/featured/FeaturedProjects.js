@@ -31,8 +31,9 @@ function FeaturedProjects() {
           style={bottomProps}
           className="FeaturedProjects-Container"
         >
-          {CQ.FEATURED_PROJECTS.map(project => (
+          {CQ.FEATURED_PROJECTS.map((project, i) => (
             <Project
+              key={i}
               title={project.title}
               link={project.link}
               description={project.description}

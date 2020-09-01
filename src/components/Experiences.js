@@ -4,7 +4,7 @@ import { useSpring, animated } from "react-spring";
 import TrackVisibility from "react-on-screen";
 
 import CQ from "../Constants/Constants";
-import Resume from "./Resume";
+// import Resume from "./Resume";
 import "../css/experiences/experiences.css";
 
 function Experiences() {
@@ -30,15 +30,16 @@ function Experiences() {
         </animated.div>
 
         <animated.div style={bottomProps} className="Experiences-Container">
-          {CQ.EXPERIENCES.COMPANIES.map((company) => (
+          {CQ.EXPERIENCES.COMPANIES.map((company, i) => (
             <Experience
+              key={i}
               name={company.name}
               title={company.title}
               period={company.period}
               link={company.link}
             />
           ))}
-          <Resume />
+          {/* <Resume /> */}
         </animated.div>
       </div>
     );

@@ -114,22 +114,6 @@
   margin-top: 60px;
 }
 
-.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Plateau {
-  background-image: url("../../../src/images/plateau1.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Booster {
-  background-image: url("../../../src/images/booster.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .WatchMe {
-  background-image: url("../../../src/images/watchme.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .FeaturedProject-Container .Nomi {
-  background-image: url("../../../src/images/nomi-landing.png");
-}
-
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container {
   margin: 70px 0;
 }
@@ -183,78 +167,6 @@
 
 .FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Onikon-Carousel-Container .Single-Container:hover .Project-Name {
   opacity: 1;
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Kaz {
-  background-image: url("../../../src/images/kaz.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Westport {
-  background-image: url("../../../src/images/westport.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .CafeJess {
-  background-image: url("../../../src/images/cafejess2.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Andrea {
-  background-image: url("../../../src/images/ac.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Mike {
-  background-image: url("../../../src/images/mike.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Pawan {
-  background-image: url("../../../src/images/pawan.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Bill {
-  background-image: url("../../../src/images/bill.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Matt {
-  background-image: url("../../../src/images/matt.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Tomlee {
-  background-image: url("../../../src/images/tomlee.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Rainmarketing {
-  background-image: url("../../../src/images/rainmarketing.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Evergreen {
-  background-image: url("../../../src/images/eg.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Fraserpark {
-  background-image: url("../../../src/images/fraserpark.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Narinder {
-  background-image: url("../../../src/images/narinder.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Khanhvo {
-  background-image: url("../../../src/images/khanvho.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Jessi {
-  background-image: url("../../../src/images/jessi.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Alex {
-  background-image: url("../../../src/images/alex.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Bassi {
-  background-image: url("../../../src/images/bassi.png");
-}
-
-.FeaturedProjects .FeaturedProjects-Container .OnikonProject-Container .Cory {
-  background-image: url("../../../src/images/cory.png");
 }
 
 @media only screen and (max-width: 1200px) {

@@ -29,8 +29,9 @@ function OtherProjects() {
         </animated.div>
         <animated.div style={bottomProps} className="OtherProjects-Container">
           {
-            CQ.OTHER_PROJECTS.map(project => (
+            CQ.OTHER_PROJECTS.map((project, i) => (
               <OtherProject
+                key={i}
                 name={project.name}
                 link={project.link}
                 info={project.info}

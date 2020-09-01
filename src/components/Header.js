@@ -27,7 +27,7 @@ function Header() {
   });
 
   return (
-    <div class="Header">
+    <div className="Header">
       <animated.div style={topProps}>
         <h1>
           {CQ.LABEL.GREETINGS_EN}
@@ -43,14 +43,17 @@ function Header() {
           <div className="content">
             <div className="content__container">
               <ul className="content__container__list">
-                {CQ.LABEL.CONTENT_ITEMS.map((item) => (
-                  <li className="content__container__list__item">{item}</li>
+                {CQ.LABEL.CONTENT_ITEMS.map((item, i) => (
+                  <li key={i} className="content__container__list__item">{item}</li>
                 ))}
               </ul>
             </div>
           </div>
           <br />
-          <h3>{CQ.LABEL.TITLE}</h3>
+          <div>
+
+            <h3>{CQ.LABEL.TITLE}</h3>
+          </div>
         </h2>
       </animated.div>
       <animated.div style={bottomProps}>
