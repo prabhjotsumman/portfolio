@@ -8,6 +8,8 @@ import { useSpring, animated } from "react-spring";
 import TrackVisibility from "react-on-screen";
 
 import "../../../css/projects/projects.css";
+import { Project } from "../../Project/Project";
+import CQ from '../../../Constants/Constants';
 
 function FeaturedProjects() {
   const ComponentToTrack = ({ isVisible }) => {
@@ -34,6 +36,13 @@ function FeaturedProjects() {
           style={bottomProps}
           className="FeaturedProjects-Container"
         >
+          {CQ.FEATURED_PROJECTS.map(project => (
+            <Project
+              title={project.title}
+              link={project.link}
+              description={project.description}
+              tags={project.tags} />
+          ))}
           <BoosterProject />
           <NomiProject />
           <WatchMeProject />

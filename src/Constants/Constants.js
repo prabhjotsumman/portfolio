@@ -91,6 +91,20 @@ var CONSTANTS = {
             },
         ],
     },
+    FEATURED_PROJECTS: [
+        {
+            title: "Movie Site",
+            link: "https://raw.githubusercontent.com/Prabhnith/React-projects/master/screenshots/movies_mainpage.PNG",
+            description: "Movie Site is created using the TheMovieDB API to fetch the latest movie data and then rendering the fetched data into movie site like theme. Every Item is Clickable to show the information of the movie selected.",
+            tags: ["TheMovieDB API", "JavaScript", "React", "HTML", "CSS"],
+        },
+        {
+            title: "Events Page",
+            link: "https://raw.githubusercontent.com/Prabhjotsumman/portfolio/master/src/images/Vanhack_homepage.PNG",
+            description: "Events page is created using pure CSS, Javascript and HTML to give the look and feel.",
+            tags: ["JavaScript", "HTML", "CSS"],
+        },
+    ],
     OTHER_PROJECTS: [
         {
             name: "Movie Site",
