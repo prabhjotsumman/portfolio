@@ -130,7 +130,18 @@ var CONSTANTS = {
             info: "Weather Now is created using the Forecast API and Location API. This automatically detect the current location of the device and after the location permission is providedm it fetches the current information of weather currently in that location.",
             stacks: ["Forecast API", "Location API", "HTML", "CSS", "JavaScript", "React"],
         },
-    ]
+    ],
+    SOCIAL: {
+        EMAIL: "prabhjot.nith@gmail.com",
+        GITHUB: "https://github.com/prabhjotsumman",
+        LINKEDIN: "https://www.linkedin.com/in/prabhjotsumman/",
+        CONTACT: "",
+        RESUME: "",
+    },
+    FOOTER: {
+        TAG: 'Created & Developed by ',
+        YEAR: new Date().getFullYear(),
+    }
 };
 
 export default CONSTANTS;

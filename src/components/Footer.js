@@ -2,6 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 import TrackVisibility from "react-on-screen";
 
+import CQ from "../Constants/Constants";
 import "../css/footer/footer.css";
 
 function Footer() {
@@ -23,31 +24,31 @@ function Footer() {
     return (
       <div className="Footer">
         <animated.div style={topProps}>
-          <h1>Created & Developed by Prabhjot 👍 2020</h1>
+          <h1>{CQ.FOOTER.TAG} {CQ.LABEL.NAME}<span role="img" aria-label="thumbs up">👍</span> {CQ.FOOTER.YEAR}</h1>
         </animated.div>
         <animated.div style={bottomProps} className="FooterLinks">
           <a
-            href="malto:dongyunrhee@gmail.com"
+            href={"mailto:" + CQ.SOCIAL.EMAIL}
             rel="noopener noreferrer"
             target="_blank"
           >
             <span className="FooterLink">EMAIL</span>
             <i className="far fa-envelope FooterLinkLogo"></i>
           </a>
-          <a href="https://github.com/Gimorhee" rel="noopener noreferrer" target="_blank">
+          <a href={CQ.SOCIAL.GITHUB} rel="noopener noreferrer" target="_blank">
             <span className="FooterLink">GITHUB</span>
             <i className="fab fa-github FooterLinkLogo"></i>
           </a>
-          <a href="https://www.linkedin.com/in/drhee-dev/" rel="noopener noreferrer" target="_blank">
+          <a href={CQ.SOCIAL.LINKEDIN} rel="noopener noreferrer" target="_blank">
             <span className="FooterLink">LINKEDIN</span>
             <i className="fab fa-linkedin FooterLinkLogo"></i>
           </a>
-          <a href="tel:604-788-7787" rel="noopener noreferrer" target="_blank">
+          <a href={"tel:" + CQ.SOCIAL.CONTACT} rel="noopener noreferrer" target="_blank">
             <span className="FooterLink">CONTACT</span>
             <i className="fas fa-phone-square FooterLinkLogo"></i>
           </a>
           <a
-            href="https://resume.creddle.io/resume/2x8ao7cjdbn"
+            href={CQ.SOCIAL.RESUME}
             rel="noopener noreferrer" target="_blank"
           >
             <span className="FooterLink">RESUME</span>
