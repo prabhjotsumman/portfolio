@@ -100,9 +100,15 @@ var CONSTANTS = {
         },
         {
             title: "Events Page",
-            link: "https://raw.githubusercontent.com/Prabhjotsumman/portfolio/master/src/images/Vanhack_homepage.PNG",
+            link: "https://github.com/prabhjotsumman/portfolio/raw/master/src/images/Vanhack_homepage.png",
             description: "Events page is created using pure CSS, Javascript and HTML to give the look and feel.",
             tags: ["JavaScript", "HTML", "CSS"],
+        },
+        {
+            title: "MyEvents.io",
+            link: "https://raw.githubusercontent.com/Prabhnith/myevents/master/screenshots/homepage.PNG",
+            description: "MyEvents.io is created using React.js, pure CSS, Javascript and HTML to give the look and feel. It is demonstration of event booking system.",
+            tags: ["React", "React Router", "Material Design", "JavaScript", "HTML", "CSS"],
         },
     ],
     OTHER_PROJECTS: [

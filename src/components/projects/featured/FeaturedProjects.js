@@ -1,9 +1,4 @@
 import React from "react";
-import { BoosterProject } from "./BoosterProject";
-import { WatchMeProject } from "./WatchMeProject";
-import OnikonProjects from "./onikon/OnikonProjects";
-import PlateauProject from "./PlateauProject";
-import { NomiProject } from "./NomiProject";
 import { useSpring, animated } from "react-spring";
 import TrackVisibility from "react-on-screen";
 
@@ -43,11 +38,6 @@ function FeaturedProjects() {
               description={project.description}
               tags={project.tags} />
           ))}
-          <BoosterProject />
-          <NomiProject />
-          <WatchMeProject />
-          <OnikonProjects />
-          <PlateauProject />
         </animated.div>
       </div>
     );

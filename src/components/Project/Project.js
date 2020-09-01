@@ -6,7 +6,7 @@ export const Project = (props) => {
     const { title, link, description, tags } = props;
     return (
         <div className="FeaturedProject-Container" style={{ marginBottom: '60px' }}>
-            <h1 className="Project-Header  Margin-Top">{title}</h1>
+            <h1 className="Project-Header">{title}</h1>
             <div className="Project-Image-Container"
                 style={{ backgroundImage: `url("${link}")`, backgroundSize: 'cover' }}>
                 <a
