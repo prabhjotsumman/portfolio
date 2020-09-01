@@ -10,7 +10,8 @@ function Switcher() {
   };
 
   if (mode) {
-    document.getElementById("Body").style.backgroundColor = "#131417";
+    // document.getElementById("Body").style.backgroundColor = "#131417";
+    document.getElementById("Body").style.backgroundColor = "#000";
   } else {
     document.getElementById("Body").style.backgroundColor = "#103c42";
   }
